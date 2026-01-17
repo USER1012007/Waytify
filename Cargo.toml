@@ -1,0 +1,14 @@
+[package]
+name = "waytify"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+cpal = "0.17.1"
+egui = "0.33.3"
+egui-wgpu = "0.33.3"
+egui-winit = "0.33.3"
+hound = "3.5.1"
+wgpu = "27.0.1"
+winit = "0.30.12"
