@@ -1,16 +1,12 @@
 [package]
-name = "waytify"
-version = "0.1.0"
-edition = "2024"
-license = "MIT"
-description = "Simple Wayland music player written in Rust"
+name = "Simple Wayland music player"
+version = "1.0.0"
+licence = "MIT"
+edition = "2021"
 
 [dependencies]
-anyhow = "1.0.100"
-cpal = "0.17.1"
-egui = "0.33.3"
-egui-wgpu = "0.33.3"
-egui-winit = "0.33.3"
-hound = "3.5.1"
-wgpu = "27.0.1"
+egui = "0.32.1"
+egui-wgpu = { version = "0.32.1", features = ["winit"] }
+egui-winit = "0.32.1"
 winit = "0.30.12"
+pollster = "0.4.0"
