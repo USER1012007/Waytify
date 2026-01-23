@@ -57,6 +57,7 @@
               clippy
               alsa-lib
               libGL
+              cargo-valgrind
             ];
             
             buildInputs = with pkgs; [
