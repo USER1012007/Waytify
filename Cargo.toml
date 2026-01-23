@@ -1,7 +1,6 @@
 [package]
-name = "Simple Wayland music player"
+name = "egui-rust-wgpu-hello"
 version = "1.0.0"
-licence = "MIT"
 edition = "2021"
 
 [dependencies]
